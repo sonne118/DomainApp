@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\App.Domain.Core\App.Domain.Core.csproj" />
+    <ProjectReference Include="..\App.Domain\App.Domain.csproj" />
+    <ProjectReference Include="..\App.Infrastructure\App.Infrastructure.csproj" />
+    <ProjectReference Include="..\Wirex.Domain.Core\App.Domain.Core.csproj" />
+    <ProjectReference Include="..\Wirex.Domain\App.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
